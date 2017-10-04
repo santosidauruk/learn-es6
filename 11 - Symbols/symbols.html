@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		const santo = Symbol('go');
+		const akk = Symbol('go');
+
+		const classRoom = { 
+			[Symbol('Mark')] : { grade : 50, class: 'A'},
+			[Symbol('olive')] : { grade : 40, class: 'C'},
+			[Symbol('olive')] : { grade : 40, class: 'C'}
+		}
+
+		for(person in classRoom){
+			console.log(person);
+		}
+
+		const syms = Object.getOwnPropertySymbols(classRoom);
+		const data = syms.map( sym => classRoom[sym]);
+		console.log(data)
+	</script>
+</body>
+</html>
