@@ -1,0 +1,22 @@
+{
+  "name": "learn-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bad-code.js",
+  "scripts": {
+    "lint": "eslint code.html --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "dependencies": {
+    "eslint-plugin-html": "^3.2.2"
+  }
+}

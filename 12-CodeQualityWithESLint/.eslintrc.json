@@ -1,0 +1,16 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "airbnb",
+    "rules": {
+        "no-console" : 1,
+        "no-unused-vars" : [1, {"varsIgnorePattern": "santo"}],
+        "comma-dangle": 1 
+    },
+    "plugins": [
+    	"html",
+    	"markdown"
+    ]
+}
